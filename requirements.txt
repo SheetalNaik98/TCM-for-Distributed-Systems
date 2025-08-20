@@ -1,0 +1,38 @@
+# Core dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+numpy==1.24.3
+scipy==1.11.4
+pandas==2.1.4
+scikit-learn==1.3.2
+sentence-transformers==2.2.2
+networkx==3.2.1
+
+# LLM providers
+openai==1.6.1
+anthropic==0.8.1
+litellm==1.17.0
+tiktoken==0.5.2
+tenacity==8.2.3
+
+# CLI and configuration
+typer==0.9.0
+rich==13.7.0
+toml==0.10.2
+
+# Logging and monitoring
+structlog==23.2.0
+python-json-logger==2.0.7
+
+# Dashboard
+streamlit==1.29.0
+plotly==5.18.0
+altair==5.2.0
+
+# Development tools
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.0
+ruff==0.1.8
+mypy==1.7.1
