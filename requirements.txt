@@ -1,3 +1,24 @@
+# requirements.txt
+
+
+# Dashboard essentials
+streamlit==1.29.0
+pandas==2.1.4
+numpy==1.24.3
+plotly==5.18.0
+
+# For loading config files
+python-dotenv==1.0.0
+toml==0.10.2
+
+# Basic networking for visualizations
+networkx==3.2.1
+
+---
+
+# requirements-full.txt (for local development - Full system)
+# Use this when running experiments locally
+
 # Core dependencies
 python-dotenv==1.0.0
 pydantic==2.5.0
